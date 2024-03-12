@@ -1,0 +1,72 @@
+Results for Regular K-Fold on Dataset Dataset 1\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+{} &      1 &     2 &      3 &      4 &     5 &     6 &     7 &      8 &     9 &     10 &   AVG \\
+\midrule
+\textbf{DT         } &  100.0 &  80.0 &   80.0 &  100.0 &  60.0 &  60.0 &  25.0 &   75.0 &  50.0 &  100.0 &  73.0 \\
+\textbf{KNN        } &   80.0 &  80.0 &  100.0 &  100.0 &  80.0 &  60.0 &  75.0 &  100.0 &  50.0 &   50.0 &  77.5 \\
+\textbf{SVM        } &  100.0 &  60.0 &   60.0 &  100.0 &  40.0 &  40.0 &   0.0 &   50.0 &   0.0 &   75.0 &  52.5 \\
+\textbf{Hard-Voting} &  100.0 &  60.0 &  100.0 &  100.0 &  60.0 &  40.0 &  25.0 &  100.0 &  25.0 &   50.0 &  66.0 \\
+\textbf{Soft-Voting} &  100.0 &  60.0 &  100.0 &  100.0 &  60.0 &  40.0 &   0.0 &  100.0 &  50.0 &  100.0 &  71.0 \\
+\bottomrule
+\end{tabular}
+
+Results for Stratified K-Fold on Dataset Dataset 1\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+{} &      1 &      2 &     3 &      4 &      5 &      6 &     7 &      8 &      9 &    10 &   AVG \\
+\midrule
+\textbf{DT         } &  100.0 &  100.0 &  40.0 &   80.0 &   80.0 &   80.0 &  75.0 &  100.0 &  100.0 &  50.0 &  80.5 \\
+\textbf{KNN        } &   60.0 &   80.0 &  60.0 &  100.0 &  100.0 &  100.0 &  75.0 &   50.0 &  100.0 &  50.0 &  77.5 \\
+\textbf{SVM        } &   60.0 &   60.0 &  80.0 &  100.0 &  100.0 &  100.0 &  50.0 &   50.0 &   75.0 &  50.0 &  72.5 \\
+\textbf{Hard-Voting} &   60.0 &  100.0 &  60.0 &  100.0 &  100.0 &  100.0 &  75.0 &   75.0 &  100.0 &  75.0 &  84.5 \\
+\textbf{Soft-Voting} &  100.0 &  100.0 &  60.0 &  100.0 &  100.0 &   80.0 &  75.0 &   75.0 &  100.0 &  50.0 &  84.0 \\
+\bottomrule
+\end{tabular}
+
+Results for Regular K-Fold on Dataset Dataset 2\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+{} &     1 &      2 &     3 &     4 &      5 &     6 &     7 &      8 &     9 &     10 &   AVG \\
+\midrule
+\textbf{DT         } &  44.4 &  100.0 &  88.9 &  88.9 &   66.7 &  88.9 &  87.5 &  100.0 &  87.5 &  100.0 &  85.3 \\
+\textbf{KNN        } &  77.8 &  100.0 &  88.9 &  88.9 &   88.9 &  88.9 &  87.5 &  100.0 &  87.5 &  100.0 &  90.8 \\
+\textbf{SVM        } &  44.4 &  100.0 &  88.9 &  77.8 &  100.0 &  88.9 &  87.5 &  100.0 &  87.5 &  100.0 &  87.5 \\
+\textbf{Hard-Voting} &  44.4 &  100.0 &  88.9 &  88.9 &  100.0 &  88.9 &  87.5 &  100.0 &  87.5 &  100.0 &  88.6 \\
+\textbf{Soft-Voting} &  77.8 &  100.0 &  88.9 &  88.9 &   88.9 &  77.8 &  87.5 &  100.0 &  87.5 &  100.0 &  89.7 \\
+\bottomrule
+\end{tabular}
+
+Results for Stratified K-Fold on Dataset Dataset 2\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+{} &     1 &      2 &      3 &      4 &     5 &      6 &      7 &      8 &      9 &    10 &   AVG \\
+\midrule
+\textbf{DT         } &  88.9 &   88.9 &  100.0 &  100.0 &  88.9 &  100.0 &   87.5 &  100.0 &  100.0 &  75.0 &  92.9 \\
+\textbf{KNN        } &  88.9 &  100.0 &   88.9 &   88.9 &  88.9 &  100.0 &  100.0 &  100.0 &   87.5 &  75.0 &  91.8 \\
+\textbf{SVM        } &  88.9 &   88.9 &  100.0 &   88.9 &  88.9 &  100.0 &  100.0 &   87.5 &   75.0 &  75.0 &  89.3 \\
+\textbf{Hard-Voting} &  88.9 &   88.9 &  100.0 &   88.9 &  88.9 &  100.0 &  100.0 &  100.0 &   87.5 &  75.0 &  91.8 \\
+\textbf{Soft-Voting} &  88.9 &   88.9 &  100.0 &   88.9 &  88.9 &  100.0 &  100.0 &  100.0 &  100.0 &  75.0 &  93.1 \\
+\bottomrule
+\end{tabular}
+
+Results for Regular K-Fold on Dataset Dataset 3\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+{} &      1 &     2 &     3 &     4 &     5 &     6 &     7 &     8 &      9 &    10 &   AVG \\
+\midrule
+\textbf{DT         } &  100.0 &  73.3 &  33.3 &  80.0 &  86.7 &  80.0 &  92.9 &  85.7 &   92.9 &  92.9 &  81.8 \\
+\textbf{KNN        } &   73.3 &  46.7 &  60.0 &  86.7 &  86.7 &  93.3 &  78.6 &  85.7 &  100.0 &  92.9 &  80.4 \\
+\textbf{SVM        } &  100.0 &  60.0 &  26.7 &  53.3 &  66.7 &  80.0 &  92.9 &  78.6 &  100.0 &  92.9 &  75.1 \\
+\textbf{Hard-Voting} &  100.0 &  66.7 &  40.0 &  86.7 &  86.7 &  80.0 &  92.9 &  85.7 &  100.0 &  92.9 &  83.1 \\
+\textbf{Soft-Voting} &  100.0 &  66.7 &  40.0 &  80.0 &  86.7 &  86.7 &  92.9 &  85.7 &   92.9 &  92.9 &  82.4 \\
+\bottomrule
+\end{tabular}
+
+Results for Stratified K-Fold on Dataset Dataset 3\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+{} &      1 &     2 &     3 &     4 &     5 &     6 &      7 &     8 &     9 &    10 &   AVG \\
+\midrule
+\textbf{DT         } &  100.0 &  80.0 &  73.3 &  80.0 &  93.3 &  86.7 &   92.9 &  85.7 &  42.9 &  64.3 &  79.9 \\
+\textbf{KNN        } &   86.7 &  66.7 &  86.7 &  80.0 &  80.0 &  93.3 &   92.9 &  85.7 &  92.9 &  78.6 &  84.3 \\
+\textbf{SVM        } &   86.7 &  80.0 &  86.7 &  66.7 &  93.3 &  93.3 &  100.0 &  85.7 &  64.3 &  64.3 &  82.1 \\
+\textbf{Hard-Voting} &   93.3 &  73.3 &  80.0 &  73.3 &  93.3 &  93.3 &  100.0 &  85.7 &  64.3 &  71.4 &  82.8 \\
+\textbf{Soft-Voting} &   93.3 &  73.3 &  73.3 &  80.0 &  93.3 &  93.3 &   92.9 &  85.7 &  71.4 &  71.4 &  82.8 \\
+\bottomrule
+\end{tabular}
+

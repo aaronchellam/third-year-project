@@ -1,0 +1,90 @@
+Voting (No Scaling)
+
+\begin{tabular}{lr}
+\hline
+ Voting Model                                             &   Total Accuracy \\
+\hline
+ HV(Decision Tree | Gaussian Process | Random Forest)     &         0.913043 \\
+ HV(Gaussian Process | Random Forest | AdaBoost)          &         0.913043 \\
+ SV(Decision Tree | KNN | RBF SVM)                        &         0.891304 \\
+ SV(Decision Tree | KNN | Gaussian Process)               &         0.891304 \\
+ HV(Decision Tree | KNN | Random Forest)                  &         0.891304 \\
+ HV(KNN | Random Forest | Naive Bayes)                    &         0.891304 \\
+ HV(Gaussian Process | Random Forest | Gradient Boosting) &         0.891304 \\
+ SV(Decision Tree | RBF SVM | Gaussian Process)           &         0.869565 \\
+ SV(KNN | RBF SVM | AdaBoost)                             &         0.869565 \\
+ SV(KNN | Gaussian Process | Random Forest)               &         0.869565 \\
+\hline
+\end{tabular}
+
+Voting (Standard Scaling)
+\begin{tabular}{lr}
+\hline
+ Voting Model                                         &   Total Accuracy \\
+\hline
+ SV(Decision Tree | KNN | RBF SVM)                    &         0.934783 \\
+ HV(Decision Tree | RBF SVM | Gaussian Process)       &         0.934783 \\
+ SV(Decision Tree | KNN | Gaussian Process)           &         0.891304 \\
+ HV(Decision Tree | Gaussian Process | Random Forest) &         0.891304 \\
+ SV(KNN | RBF SVM | Gradient Boosting)                &         0.891304 \\
+ HV(KNN | Random Forest | Naive Bayes)                &         0.891304 \\
+ SV(KNN | Random Forest | Gradient Boosting)          &         0.891304 \\
+ HV(RBF SVM | Gaussian Process | Random Forest)       &         0.891304 \\
+ SV(RBF SVM | Gaussian Process | Random Forest)       &         0.891304 \\
+ HV(RBF SVM | Gaussian Process | Gradient Boosting)   &         0.891304 \\
+\hline
+\end{tabular}
+
+LOOCV Voting
+\begin{tabular}{lr}
+\hline
+ Voting Model                                         &   Total Accuracy \\
+\hline
+ SV(RBF SVM | Gaussian Process | Random Forest)       &         0.934783 \\
+ HV(KNN | RBF SVM | Gaussian Process)                 &         0.913043 \\
+ HV(Decision Tree | Gaussian Process | Random Forest) &         0.891304 \\
+ HV(KNN | Gaussian Process | Random Forest)           &         0.891304 \\
+ HV(KNN | Gaussian Process | AdaBoost)                &         0.891304 \\
+ HV(KNN | Gaussian Process | QDA)                     &         0.891304 \\
+ HV(KNN | Random Forest | AdaBoost)                   &         0.891304 \\
+ HV(KNN | Random Forest | Naive Bayes)                &         0.891304 \\
+ SV(KNN | Random Forest | Gradient Boosting)          &         0.891304 \\
+ HV(KNN | AdaBoost | Naive Bayes)                     &         0.891304 \\
+\hline
+\end{tabular}
+
+Voting (D2 - Standard)
+\begin{tabular}{lr}
+\hline
+ Voting Model                                &   Total Accuracy \\
+\hline
+ SV(KNN | RBF SVM | QDA)                     &         0.94186  \\
+ SV(KNN | Naive Bayes | QDA)                 &         0.94186  \\
+ SV(Decision Tree | KNN | Naive Bayes)       &         0.930233 \\
+ HV(Decision Tree | KNN | QDA)               &         0.930233 \\
+ SV(Decision Tree | KNN | QDA)               &         0.930233 \\
+ HV(Decision Tree | RBF SVM | Random Forest) &         0.930233 \\
+ SV(KNN | RBF SVM | Gaussian Process)        &         0.930233 \\
+ HV(KNN | RBF SVM | QDA)                     &         0.930233 \\
+ SV(KNN | RBF SVM | Gradient Boosting)       &         0.930233 \\
+ SV(KNN | AdaBoost | Naive Bayes)            &         0.930233 \\
+\hline
+\end{tabular}
+
+Voting (D3 - Standard)
+\begin{tabular}{lr}
+\hline
+ Voting Model                                   &   Total Accuracy \\
+\hline
+ HV(Decision Tree | KNN | QDA)                  &         0.873239 \\
+ HV(KNN | Gaussian Process | QDA)               &         0.873239 \\
+ HV(KNN | Gaussian Process | Gradient Boosting) &         0.873239 \\
+ SV(KNN | Random Forest | Gradient Boosting)    &         0.873239 \\
+ HV(KNN | QDA | Gradient Boosting)              &         0.873239 \\
+ HV(Decision Tree | KNN | Gaussian Process)     &         0.866197 \\
+ HV(Decision Tree | KNN | Naive Bayes)          &         0.866197 \\
+ HV(Decision Tree | Gaussian Process | QDA)     &         0.866197 \\
+ HV(KNN | Gaussian Process | Naive Bayes)       &         0.866197 \\
+ SV(KNN | Gaussian Process | QDA)               &         0.866197 \\
+\hline
+\end{tabular}
