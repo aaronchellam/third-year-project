@@ -1,4 +1,7 @@
 # third-year-project
+
+Code from my research-based third year project which explores the use of ensemble learning and deep learning machine learning models to classify remote laser welding (RLW) signal data.
+
 Running Models/compare_classifiers.py will produce test results for the classical models + non-voting ensemble models for every fold. It will also then enumerate the results for all 160+ combinations of ensemble classifiers.
  These results are performed for all datasets so may take some time to run to completion.
  Different types of datasets can be loaded by comment/uncomment out the "d1X, d1y, d2X, d2y, d3X, d3y" lines at the start. There are options for normal statistic feature data, augmented data, and augmented dataset C data.
